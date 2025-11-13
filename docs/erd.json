@@ -1,0 +1,4281 @@
+{
+  "name": "%0",
+  "directed": true,
+  "strict": false,
+  "_draw_": 
+  [
+    {
+      "op": "c",
+      "grad": "none",
+      "color": "#fffffe00"
+    },
+    {
+      "op": "C",
+      "grad": "none",
+      "color": "#ffffff"
+    },
+    {
+      "op": "P",
+      "points": [[-144.000,-144.000],[-144.000,1549.670],[1092.130,1549.670],[1092.130,-144.000]]
+    }
+  ],
+  "bb": "0,0,948.13,1405.7",
+  "esep": "1",
+  "margin": "0",
+  "nodesep": "1",
+  "overlap": "false",
+  "pad": "2",
+  "rankdir": "LR",
+  "ranksep": "1",
+  "splines": "true",
+  "xdotversion": "1.7",
+  "_subgraph_cnt": 0,
+  "objects": [
+    {
+      "_gvid": 0,
+      "name": "assignments",
+      "_ldraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#4477c9"
+        },
+        {
+          "op": "P",
+          "points": [[548.080,1136.000],[548.080,1334.000],[630.080,1334.000],[630.080,1136.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#add8e6"
+        },
+        {
+          "op": "P",
+          "points": [[548.080,1316.000],[548.080,1334.000],[630.080,1334.000],[630.080,1316.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1316.000],[548.080,1334.000],[630.080,1334.000],[630.080,1316.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 3
+        },
+        {
+          "op": "T",
+          "pt": [564.840,1322.900],
+          "align": "l",
+          "width": 48.490,
+          "text": " assignments "
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1296.000],[548.080,1316.000],[630.080,1316.000],[630.080,1296.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [553.080,1302.900],
+          "align": "l",
+          "width": 40.750,
+          "text": "title: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1276.000],[548.080,1296.000],[630.080,1296.000],[630.080,1276.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [553.080,1282.900],
+          "align": "l",
+          "width": 66.740,
+          "text": "description: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1256.000],[548.080,1276.000],[630.080,1276.000],[630.080,1256.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [553.080,1262.900],
+          "align": "l",
+          "width": 59.720,
+          "text": "course: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1236.000],[548.080,1256.000],[630.080,1256.000],[630.080,1236.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [553.080,1242.900],
+          "align": "l",
+          "width": 51.720,
+          "text": "dueDate: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1216.000],[548.080,1236.000],[630.080,1236.000],[630.080,1216.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [552.710,1222.900],
+          "align": "l",
+          "width": 72.740,
+          "text": "totalPoints: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1196.000],[548.080,1216.000],[630.080,1216.000],[630.080,1196.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [553.080,1202.900],
+          "align": "l",
+          "width": 69.740,
+          "text": "submissions: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1176.000],[548.080,1196.000],[630.080,1196.000],[630.080,1176.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [553.080,1182.900],
+          "align": "l",
+          "width": 56.720,
+          "text": "createdAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1156.000],[548.080,1176.000],[630.080,1176.000],[630.080,1156.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [553.080,1162.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "_id: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[548.080,1136.000],[548.080,1156.000],[630.080,1156.000],[630.080,1136.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [553.080,1142.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "__v: Number"
+        }
+      ],
+      "fontsize": "9",
+      "height": "2.75",
+      "label": "<table BGCOLOR=\"#4477c9\"  border=\"0\" cellborder=\"1\" cellspacing=\"0\" cellpadding=\"4\">\n  <tr><td  bgcolor=\"lightblue\"  align=\"center\" cellpadding=\"3\"><i><B> assignments <\/B><\/i><\/td><\/tr>\n      <tr><td port=\"0\" align=\"left\" >title: String<\/td><\/tr>\n\t<tr><td port=\"1\" align=\"left\" >description: String<\/td><\/tr>\n\t<tr><td port=\"2\" align=\"left\" >course: ObjectId<\/td><\/tr>\n\t<tr><td port=\"3\" align=\"left\" >dueDate: Date<\/td><\/tr>\n\t<tr><td port=\"4\" align=\"left\" >totalPoints: Number<\/td><\/tr>\n\t<tr><td port=\"5\" align=\"left\" >submissions: Array<\/td><\/tr>\n\t<tr><td port=\"6\" align=\"left\" >createdAt: Date<\/td><\/tr>\n\t<tr><td port=\"7\" align=\"left\" >_id: ObjectId<\/td><\/tr>\n\t<tr><td port=\"8\" align=\"left\" >__v: Number<\/td><\/tr>\n\n  <\/table>",
+      "margin": "0",
+      "pos": "589.08,1235",
+      "shape": "none",
+      "width": "1.1389"
+    },
+    {
+      "_gvid": 1,
+      "name": "courses",
+      "_ldraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#4477c9"
+        },
+        {
+          "op": "P",
+          "points": [[257.000,696.000],[257.000,934.000],[337.000,934.000],[337.000,696.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#add8e6"
+        },
+        {
+          "op": "P",
+          "points": [[257.000,916.000],[257.000,934.000],[337.000,934.000],[337.000,916.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,916.000],[257.000,934.000],[337.000,934.000],[337.000,916.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 3
+        },
+        {
+          "op": "T",
+          "pt": [281.260,922.900],
+          "align": "l",
+          "width": 31.490,
+          "text": " courses "
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,896.000],[257.000,916.000],[337.000,916.000],[337.000,896.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [262.000,902.900],
+          "align": "l",
+          "width": 40.750,
+          "text": "title: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,876.000],[257.000,896.000],[337.000,896.000],[337.000,876.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [262.000,882.900],
+          "align": "l",
+          "width": 66.740,
+          "text": "description: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,856.000],[257.000,876.000],[337.000,876.000],[337.000,856.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [261.640,862.900],
+          "align": "l",
+          "width": 70.730,
+          "text": "instructor: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,836.000],[257.000,856.000],[337.000,856.000],[337.000,836.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [262.000,842.900],
+          "align": "l",
+          "width": 55.230,
+          "text": "students: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,816.000],[257.000,836.000],[337.000,836.000],[337.000,816.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [262.000,822.900],
+          "align": "l",
+          "width": 53.720,
+          "text": "lectures: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,796.000],[257.000,816.000],[337.000,816.000],[337.000,796.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [262.000,802.900],
+          "align": "l",
+          "width": 69.730,
+          "text": "assignments: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,776.000],[257.000,796.000],[337.000,796.000],[337.000,776.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [262.000,782.900],
+          "align": "l",
+          "width": 54.220,
+          "text": "startDate: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,756.000],[257.000,776.000],[337.000,776.000],[337.000,756.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [262.000,762.900],
+          "align": "l",
+          "width": 51.720,
+          "text": "endDate: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,736.000],[257.000,756.000],[337.000,756.000],[337.000,736.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [262.000,742.900],
+          "align": "l",
+          "width": 56.720,
+          "text": "createdAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,716.000],[257.000,736.000],[337.000,736.000],[337.000,716.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [262.000,722.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "_id: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[257.000,696.000],[257.000,716.000],[337.000,716.000],[337.000,696.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [262.000,702.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "__v: Number"
+        }
+      ],
+      "fontsize": "9",
+      "height": "3.3056",
+      "label": "<table BGCOLOR=\"#4477c9\"  border=\"0\" cellborder=\"1\" cellspacing=\"0\" cellpadding=\"4\">\n  <tr><td  bgcolor=\"lightblue\"  align=\"center\" cellpadding=\"3\"><i><B> courses <\/B><\/i><\/td><\/tr>\n      <tr><td port=\"0\" align=\"left\" >title: String<\/td><\/tr>\n\t<tr><td port=\"1\" align=\"left\" >description: String<\/td><\/tr>\n\t<tr><td port=\"2\" align=\"left\" >instructor: ObjectId<\/td><\/tr>\n\t<tr><td port=\"3\" align=\"left\" >students: Array<\/td><\/tr>\n\t<tr><td port=\"4\" align=\"left\" >lectures: Array<\/td><\/tr>\n\t<tr><td port=\"5\" align=\"left\" >assignments: Array<\/td><\/tr>\n\t<tr><td port=\"6\" align=\"left\" >startDate: Date<\/td><\/tr>\n\t<tr><td port=\"7\" align=\"left\" >endDate: Date<\/td><\/tr>\n\t<tr><td port=\"8\" align=\"left\" >createdAt: Date<\/td><\/tr>\n\t<tr><td port=\"9\" align=\"left\" >_id: ObjectId<\/td><\/tr>\n\t<tr><td port=\"10\" align=\"left\" >__v: Number<\/td><\/tr>\n\n  <\/table>",
+      "margin": "0",
+      "pos": "297,815",
+      "shape": "none",
+      "width": "1.1111"
+    },
+    {
+      "_gvid": 2,
+      "name": "discussions",
+      "_ldraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#4477c9"
+        },
+        {
+          "op": "P",
+          "points": [[554.580,226.000],[554.580,404.000],[623.580,404.000],[623.580,226.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#add8e6"
+        },
+        {
+          "op": "P",
+          "points": [[555.080,386.000],[555.080,404.000],[624.080,404.000],[624.080,386.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[555.080,386.000],[555.080,404.000],[624.080,404.000],[624.080,386.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 3
+        },
+        {
+          "op": "T",
+          "pt": [566.830,392.900],
+          "align": "l",
+          "width": 45.500,
+          "text": " discussions "
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[555.080,366.000],[555.080,386.000],[624.080,386.000],[624.080,366.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [559.720,372.900],
+          "align": "l",
+          "width": 59.720,
+          "text": "course: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[555.080,346.000],[555.080,366.000],[624.080,366.000],[624.080,346.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [559.970,352.900],
+          "align": "l",
+          "width": 59.230,
+          "text": "author: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[555.080,326.000],[555.080,346.000],[624.080,346.000],[624.080,326.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [560.080,332.900],
+          "align": "l",
+          "width": 40.750,
+          "text": "title: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[555.080,306.000],[555.080,326.000],[624.080,326.000],[624.080,306.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [560.080,312.900],
+          "align": "l",
+          "width": 53.240,
+          "text": "content: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[555.080,286.000],[555.080,306.000],[624.080,306.000],[624.080,286.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [560.080,292.900],
+          "align": "l",
+          "width": 49.720,
+          "text": "replies: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[555.080,266.000],[555.080,286.000],[624.080,286.000],[624.080,266.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [560.080,272.900],
+          "align": "l",
+          "width": 56.720,
+          "text": "createdAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[555.080,246.000],[555.080,266.000],[624.080,266.000],[624.080,246.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [560.080,252.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "_id: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[555.080,226.000],[555.080,246.000],[624.080,246.000],[624.080,226.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [560.080,232.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "__v: Number"
+        }
+      ],
+      "fontsize": "9",
+      "height": "2.4722",
+      "label": "<table BGCOLOR=\"#4477c9\"  border=\"0\" cellborder=\"1\" cellspacing=\"0\" cellpadding=\"4\">\n  <tr><td  bgcolor=\"lightblue\"  align=\"center\" cellpadding=\"3\"><i><B> discussions <\/B><\/i><\/td><\/tr>\n      <tr><td port=\"0\" align=\"left\" >course: ObjectId<\/td><\/tr>\n\t<tr><td port=\"1\" align=\"left\" >author: ObjectId<\/td><\/tr>\n\t<tr><td port=\"2\" align=\"left\" >title: String<\/td><\/tr>\n\t<tr><td port=\"3\" align=\"left\" >content: String<\/td><\/tr>\n\t<tr><td port=\"4\" align=\"left\" >replies: Array<\/td><\/tr>\n\t<tr><td port=\"5\" align=\"left\" >createdAt: Date<\/td><\/tr>\n\t<tr><td port=\"6\" align=\"left\" >_id: ObjectId<\/td><\/tr>\n\t<tr><td port=\"7\" align=\"left\" >__v: Number<\/td><\/tr>\n\n  <\/table>",
+      "margin": "0",
+      "pos": "589.08,315",
+      "shape": "none",
+      "width": "0.95833"
+    },
+    {
+      "_gvid": 3,
+      "name": "lectures",
+      "_ldraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#4477c9"
+        },
+        {
+          "op": "P",
+          "points": [[550.080,866.000],[550.080,1064.000],[628.080,1064.000],[628.080,866.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#add8e6"
+        },
+        {
+          "op": "P",
+          "points": [[550.080,1046.000],[550.080,1064.000],[628.080,1064.000],[628.080,1046.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,1046.000],[550.080,1064.000],[628.080,1064.000],[628.080,1046.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 3
+        },
+        {
+          "op": "T",
+          "pt": [572.840,1052.900],
+          "align": "l",
+          "width": 32.480,
+          "text": " lectures "
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,1026.000],[550.080,1046.000],[628.080,1046.000],[628.080,1026.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [555.080,1032.900],
+          "align": "l",
+          "width": 40.750,
+          "text": "title: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,1006.000],[550.080,1026.000],[628.080,1026.000],[628.080,1006.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [555.080,1012.900],
+          "align": "l",
+          "width": 53.240,
+          "text": "content: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,986.000],[550.080,1006.000],[628.080,1006.000],[628.080,986.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [555.080,992.900],
+          "align": "l",
+          "width": 59.720,
+          "text": "course: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,966.000],[550.080,986.000],[628.080,986.000],[628.080,966.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [555.080,972.900],
+          "align": "l",
+          "width": 58.740,
+          "text": "videoUrl: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,946.000],[550.080,966.000],[628.080,966.000],[628.080,946.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [554.720,952.900],
+          "align": "l",
+          "width": 68.720,
+          "text": "attachments: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,926.000],[550.080,946.000],[628.080,946.000],[628.080,926.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [555.080,932.900],
+          "align": "l",
+          "width": 53.230,
+          "text": "order: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,906.000],[550.080,926.000],[628.080,926.000],[628.080,906.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [555.080,912.900],
+          "align": "l",
+          "width": 56.720,
+          "text": "createdAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,886.000],[550.080,906.000],[628.080,906.000],[628.080,886.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [555.080,892.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "_id: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[550.080,866.000],[550.080,886.000],[628.080,886.000],[628.080,866.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [555.080,872.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "__v: Number"
+        }
+      ],
+      "fontsize": "9",
+      "height": "2.75",
+      "label": "<table BGCOLOR=\"#4477c9\"  border=\"0\" cellborder=\"1\" cellspacing=\"0\" cellpadding=\"4\">\n  <tr><td  bgcolor=\"lightblue\"  align=\"center\" cellpadding=\"3\"><i><B> lectures <\/B><\/i><\/td><\/tr>\n      <tr><td port=\"0\" align=\"left\" >title: String<\/td><\/tr>\n\t<tr><td port=\"1\" align=\"left\" >content: String<\/td><\/tr>\n\t<tr><td port=\"2\" align=\"left\" >course: ObjectId<\/td><\/tr>\n\t<tr><td port=\"3\" align=\"left\" >videoUrl: String<\/td><\/tr>\n\t<tr><td port=\"4\" align=\"left\" >attachments: Array<\/td><\/tr>\n\t<tr><td port=\"5\" align=\"left\" >order: Number<\/td><\/tr>\n\t<tr><td port=\"6\" align=\"left\" >createdAt: Date<\/td><\/tr>\n\t<tr><td port=\"7\" align=\"left\" >_id: ObjectId<\/td><\/tr>\n\t<tr><td port=\"8\" align=\"left\" >__v: Number<\/td><\/tr>\n\n  <\/table>",
+      "margin": "0",
+      "pos": "589.08,965",
+      "shape": "none",
+      "width": "1.0833"
+    },
+    {
+      "_gvid": 4,
+      "name": "quizzes",
+      "_ldraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#4477c9"
+        },
+        {
+          "op": "P",
+          "points": [[543.580,476.000],[543.580,794.000],[634.580,794.000],[634.580,476.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#add8e6"
+        },
+        {
+          "op": "P",
+          "points": [[544.080,776.000],[544.080,794.000],[635.080,794.000],[635.080,776.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,776.000],[544.080,794.000],[635.080,794.000],[635.080,776.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 3
+        },
+        {
+          "op": "T",
+          "pt": [573.840,782.900],
+          "align": "l",
+          "width": 31.490,
+          "text": " quizzes "
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,756.000],[544.080,776.000],[635.080,776.000],[635.080,756.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [549.080,762.900],
+          "align": "l",
+          "width": 40.750,
+          "text": "title: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,736.000],[544.080,756.000],[635.080,756.000],[635.080,736.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,742.900],
+          "align": "l",
+          "width": 66.740,
+          "text": "description: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,716.000],[544.080,736.000],[635.080,736.000],[635.080,716.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,722.900],
+          "align": "l",
+          "width": 59.720,
+          "text": "course: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,696.000],[544.080,716.000],[635.080,716.000],[635.080,696.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,702.900],
+          "align": "l",
+          "width": 59.730,
+          "text": "questions: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,676.000],[544.080,696.000],[635.080,696.000],[635.080,676.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,682.900],
+          "align": "l",
+          "width": 51.720,
+          "text": "dueDate: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,656.000],[544.080,676.000],[635.080,676.000],[635.080,656.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,662.900],
+          "align": "l",
+          "width": 72.740,
+          "text": "totalPoints: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,636.000],[544.080,656.000],[635.080,656.000],[635.080,636.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,642.900],
+          "align": "l",
+          "width": 70.240,
+          "text": "timeLimit: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,616.000],[544.080,636.000],[635.080,636.000],[635.080,616.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [548.720,622.900],
+          "align": "l",
+          "width": 81.730,
+          "text": "passingScore: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,596.000],[544.080,616.000],[635.080,616.000],[635.080,596.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,602.900],
+          "align": "l",
+          "width": 64.740,
+          "text": "attempts: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,576.000],[544.080,596.000],[635.080,596.000],[635.080,576.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,582.900],
+          "align": "l",
+          "width": 69.740,
+          "text": "submissions: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,556.000],[544.080,576.000],[635.080,576.000],[635.080,556.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,562.900],
+          "align": "l",
+          "width": 76.250,
+          "text": "isPublished: Boolean"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,536.000],[544.080,556.000],[635.080,556.000],[635.080,536.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,542.900],
+          "align": "l",
+          "width": 56.720,
+          "text": "createdAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,516.000],[544.080,536.000],[635.080,536.000],[635.080,516.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,522.900],
+          "align": "l",
+          "width": 59.230,
+          "text": "updatedAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,496.000],[544.080,516.000],[635.080,516.000],[635.080,496.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,502.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "_id: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[544.080,476.000],[544.080,496.000],[635.080,496.000],[635.080,476.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [549.080,482.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "__v: Number"
+        }
+      ],
+      "fontsize": "9",
+      "height": "4.4167",
+      "label": "<table BGCOLOR=\"#4477c9\"  border=\"0\" cellborder=\"1\" cellspacing=\"0\" cellpadding=\"4\">\n  <tr><td  bgcolor=\"lightblue\"  align=\"center\" cellpadding=\"3\"><i><B> quizzes <\/B><\/i><\/td><\/tr>\n      <tr><td port=\"0\" align=\"left\" >title: String<\/td><\/tr>\n\t<tr><td port=\"1\" align=\"left\" >description: String<\/td><\/tr>\n\t<tr><td port=\"2\" align=\"left\" >course: ObjectId<\/td><\/tr>\n\t<tr><td port=\"3\" align=\"left\" >questions: Array<\/td><\/tr>\n\t<tr><td port=\"4\" align=\"left\" >dueDate: Date<\/td><\/tr>\n\t<tr><td port=\"5\" align=\"left\" >totalPoints: Number<\/td><\/tr>\n\t<tr><td port=\"6\" align=\"left\" >timeLimit: Number<\/td><\/tr>\n\t<tr><td port=\"7\" align=\"left\" >passingScore: Number<\/td><\/tr>\n\t<tr><td port=\"8\" align=\"left\" >attempts: Number<\/td><\/tr>\n\t<tr><td port=\"9\" align=\"left\" >submissions: Array<\/td><\/tr>\n\t<tr><td port=\"10\" align=\"left\" >isPublished: Boolean<\/td><\/tr>\n\t<tr><td port=\"11\" align=\"left\" >createdAt: Date<\/td><\/tr>\n\t<tr><td port=\"12\" align=\"left\" >updatedAt: Date<\/td><\/tr>\n\t<tr><td port=\"13\" align=\"left\" >_id: ObjectId<\/td><\/tr>\n\t<tr><td port=\"14\" align=\"left\" >__v: Number<\/td><\/tr>\n\n  <\/table>",
+      "margin": "0",
+      "pos": "589.08,635",
+      "shape": "none",
+      "width": "1.2639"
+    },
+    {
+      "_gvid": 5,
+      "name": "quizsubmissions",
+      "_ldraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#4477c9"
+        },
+        {
+          "op": "P",
+          "points": [[848.130,0.000],[848.130,258.000],[948.130,258.000],[948.130,0.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#add8e6"
+        },
+        {
+          "op": "P",
+          "points": [[848.130,240.000],[848.130,258.000],[948.130,258.000],[948.130,240.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,240.000],[848.130,258.000],[948.130,258.000],[948.130,240.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 3
+        },
+        {
+          "op": "T",
+          "pt": [866.130,246.900],
+          "align": "l",
+          "width": 64.000,
+          "text": " quizsubmissions "
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,220.000],[848.130,240.000],[948.130,240.000],[948.130,220.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [853.130,226.900],
+          "align": "l",
+          "width": 51.730,
+          "text": "quiz: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,200.000],[848.130,220.000],[948.130,220.000],[948.130,200.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,206.900],
+          "align": "l",
+          "width": 62.230,
+          "text": "student: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,180.000],[848.130,200.000],[948.130,200.000],[948.130,180.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,186.900],
+          "align": "l",
+          "width": 54.720,
+          "text": "answers: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,160.000],[848.130,180.000],[948.130,180.000],[948.130,160.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,166.900],
+          "align": "l",
+          "width": 70.730,
+          "text": "totalScore: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,140.000],[848.130,160.000],[948.130,160.000],[948.130,140.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,146.900],
+          "align": "l",
+          "width": 73.210,
+          "text": "percentage: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,120.000],[848.130,140.000],[948.130,140.000],[948.130,120.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,126.900],
+          "align": "l",
+          "width": 58.730,
+          "text": "passed: Boolean"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,100.000],[848.130,120.000],[948.130,120.000],[948.130,100.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,106.900],
+          "align": "l",
+          "width": 54.730,
+          "text": "startedAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,80.000],[848.130,100.000],[948.130,100.000],[948.130,80.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,86.900],
+          "align": "l",
+          "width": 66.240,
+          "text": "submittedAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,60.000],[848.130,80.000],[948.130,80.000],[948.130,60.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,66.900],
+          "align": "l",
+          "width": 59.230,
+          "text": "feedback: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,40.000],[848.130,60.000],[948.130,60.000],[948.130,40.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [852.770,46.900],
+          "align": "l",
+          "width": 90.720,
+          "text": "attemptNumber: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,20.000],[848.130,40.000],[948.130,40.000],[948.130,20.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,26.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "_id: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[848.130,0.000],[848.130,20.000],[948.130,20.000],[948.130,0.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [853.130,6.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "__v: Number"
+        }
+      ],
+      "fontsize": "9",
+      "height": "3.5833",
+      "label": "<table BGCOLOR=\"#4477c9\"  border=\"0\" cellborder=\"1\" cellspacing=\"0\" cellpadding=\"4\">\n  <tr><td  bgcolor=\"lightblue\"  align=\"center\" cellpadding=\"3\"><i><B> quizsubmissions <\/B><\/i><\/td><\/tr>\n      <tr><td port=\"0\" align=\"left\" >quiz: ObjectId<\/td><\/tr>\n\t<tr><td port=\"1\" align=\"left\" >student: ObjectId<\/td><\/tr>\n\t<tr><td port=\"2\" align=\"left\" >answers: Array<\/td><\/tr>\n\t<tr><td port=\"3\" align=\"left\" >totalScore: Number<\/td><\/tr>\n\t<tr><td port=\"4\" align=\"left\" >percentage: Number<\/td><\/tr>\n\t<tr><td port=\"5\" align=\"left\" >passed: Boolean<\/td><\/tr>\n\t<tr><td port=\"6\" align=\"left\" >startedAt: Date<\/td><\/tr>\n\t<tr><td port=\"7\" align=\"left\" >submittedAt: Date<\/td><\/tr>\n\t<tr><td port=\"8\" align=\"left\" >feedback: String<\/td><\/tr>\n\t<tr><td port=\"9\" align=\"left\" >attemptNumber: Number<\/td><\/tr>\n\t<tr><td port=\"10\" align=\"left\" >_id: ObjectId<\/td><\/tr>\n\t<tr><td port=\"11\" align=\"left\" >__v: Number<\/td><\/tr>\n\n  <\/table>",
+      "margin": "0",
+      "pos": "898.13,129",
+      "shape": "none",
+      "width": "1.3889"
+    },
+    {
+      "_gvid": 6,
+      "name": "submissions",
+      "_ldraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#4477c9"
+        },
+        {
+          "op": "P",
+          "points": [[855.130,1179.000],[855.130,1397.000],[941.130,1397.000],[941.130,1179.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#add8e6"
+        },
+        {
+          "op": "P",
+          "points": [[855.130,1379.000],[855.130,1397.000],[941.130,1397.000],[941.130,1379.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1379.000],[855.130,1397.000],[941.130,1397.000],[941.130,1379.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 3
+        },
+        {
+          "op": "T",
+          "pt": [873.880,1385.900],
+          "align": "l",
+          "width": 48.500,
+          "text": " submissions "
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1359.000],[855.130,1379.000],[941.130,1379.000],[941.130,1359.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [859.760,1365.900],
+          "align": "l",
+          "width": 76.730,
+          "text": "assignment: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1339.000],[855.130,1359.000],[941.130,1359.000],[941.130,1339.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [860.130,1345.900],
+          "align": "l",
+          "width": 62.230,
+          "text": "student: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1319.000],[855.130,1339.000],[941.130,1339.000],[941.130,1319.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [860.130,1325.900],
+          "align": "l",
+          "width": 53.240,
+          "text": "content: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1299.000],[855.130,1319.000],[941.130,1319.000],[941.130,1299.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [860.130,1305.900],
+          "align": "l",
+          "width": 68.720,
+          "text": "attachments: Array"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1279.000],[855.130,1299.000],[941.130,1299.000],[941.130,1279.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [860.130,1285.900],
+          "align": "l",
+          "width": 54.230,
+          "text": "grade: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1259.000],[855.130,1279.000],[941.130,1279.000],[941.130,1259.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [860.130,1265.900],
+          "align": "l",
+          "width": 59.230,
+          "text": "feedback: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1239.000],[855.130,1259.000],[941.130,1259.000],[941.130,1239.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [860.130,1245.900],
+          "align": "l",
+          "width": 66.240,
+          "text": "submittedAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1219.000],[855.130,1239.000],[941.130,1239.000],[941.130,1219.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [860.130,1225.900],
+          "align": "l",
+          "width": 55.220,
+          "text": "gradedAt: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1199.000],[855.130,1219.000],[941.130,1219.000],[941.130,1199.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [860.130,1205.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "_id: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[855.130,1179.000],[855.130,1199.000],[941.130,1199.000],[941.130,1179.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [860.130,1185.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "__v: Number"
+        }
+      ],
+      "fontsize": "9",
+      "height": "3.0278",
+      "label": "<table BGCOLOR=\"#4477c9\"  border=\"0\" cellborder=\"1\" cellspacing=\"0\" cellpadding=\"4\">\n  <tr><td  bgcolor=\"lightblue\"  align=\"center\" cellpadding=\"3\"><i><B> submissions <\/B><\/i><\/td><\/tr>\n      <tr><td port=\"0\" align=\"left\" >assignment: ObjectId<\/td><\/tr>\n\t<tr><td port=\"1\" align=\"left\" >student: ObjectId<\/td><\/tr>\n\t<tr><td port=\"2\" align=\"left\" >content: String<\/td><\/tr>\n\t<tr><td port=\"3\" align=\"left\" >attachments: Array<\/td><\/tr>\n\t<tr><td port=\"4\" align=\"left\" >grade: Number<\/td><\/tr>\n\t<tr><td port=\"5\" align=\"left\" >feedback: String<\/td><\/tr>\n\t<tr><td port=\"6\" align=\"left\" >submittedAt: Date<\/td><\/tr>\n\t<tr><td port=\"7\" align=\"left\" >gradedAt: Date<\/td><\/tr>\n\t<tr><td port=\"8\" align=\"left\" >_id: ObjectId<\/td><\/tr>\n\t<tr><td port=\"9\" align=\"left\" >__v: Number<\/td><\/tr>\n\n  <\/table>",
+      "margin": "0",
+      "pos": "898.13,1288",
+      "shape": "none",
+      "width": "1.1944"
+    },
+    {
+      "_gvid": 7,
+      "name": "users",
+      "_ldraw_": 
+      [
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#4477c9"
+        },
+        {
+          "op": "P",
+          "points": [[0.000,621.000],[0.000,899.000],[101.000,899.000],[101.000,621.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#fffffe00"
+        },
+        {
+          "op": "C",
+          "grad": "none",
+          "color": "#add8e6"
+        },
+        {
+          "op": "P",
+          "points": [[0.500,881.000],[0.500,899.000],[101.500,899.000],[101.500,881.000]]
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,881.000],[0.500,899.000],[101.500,899.000],[101.500,881.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 3
+        },
+        {
+          "op": "T",
+          "pt": [39.500,887.900],
+          "align": "l",
+          "width": 22.990,
+          "text": " users "
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,861.000],[0.500,881.000],[101.500,881.000],[101.500,861.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "t",
+          "fontchar": 0
+        },
+        {
+          "op": "T",
+          "pt": [5.500,867.900],
+          "align": "l",
+          "width": 46.750,
+          "text": "email: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,841.000],[0.500,861.000],[101.500,861.000],[101.500,841.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,847.900],
+          "align": "l",
+          "width": 40.740,
+          "text": "role: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,821.000],[0.500,841.000],[101.500,841.000],[101.500,821.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,827.900],
+          "align": "l",
+          "width": 60.740,
+          "text": "password: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,801.000],[0.500,821.000],[101.500,821.000],[101.500,801.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.380,807.900],
+          "align": "l",
+          "width": 91.240,
+          "text": "passwordConfirm: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,781.000],[0.500,801.000],[101.500,801.000],[101.500,781.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,787.900],
+          "align": "l",
+          "width": 46.240,
+          "text": "name: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,761.000],[0.500,781.000],[101.500,781.000],[101.500,761.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,767.900],
+          "align": "l",
+          "width": 60.250,
+          "text": "studentId: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,741.000],[0.500,761.000],[101.500,761.000],[101.500,741.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,747.900],
+          "align": "l",
+          "width": 52.240,
+          "text": "GPA: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,721.000],[0.500,741.000],[101.500,741.000],[101.500,721.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,727.900],
+          "align": "l",
+          "width": 47.750,
+          "text": "major: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,701.000],[0.500,721.000],[101.500,721.000],[101.500,701.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,707.900],
+          "align": "l",
+          "width": 51.730,
+          "text": "level: Number"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,681.000],[0.500,701.000],[101.500,701.000],[101.500,681.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,687.900],
+          "align": "l",
+          "width": 47.250,
+          "text": "photo: String"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,661.000],[0.500,681.000],[101.500,681.000],[101.500,661.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,667.900],
+          "align": "l",
+          "width": 62.220,
+          "text": "DateJoined: Date"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,641.000],[0.500,661.000],[101.500,661.000],[101.500,641.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,647.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "_id: ObjectId"
+        },
+        {
+          "op": "S",
+          "style": "solid"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "p",
+          "points": [[0.500,621.000],[0.500,641.000],[101.500,641.000],[101.500,621.000]]
+        },
+        {
+          "op": "F",
+          "size": 9.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [5.500,627.900],
+          "align": "l",
+          "width": 47.740,
+          "text": "__v: Number"
+        }
+      ],
+      "fontsize": "9",
+      "height": "3.8611",
+      "label": "<table BGCOLOR=\"#4477c9\"  border=\"0\" cellborder=\"1\" cellspacing=\"0\" cellpadding=\"4\">\n  <tr><td  bgcolor=\"lightblue\"  align=\"center\" cellpadding=\"3\"><i><B> users <\/B><\/i><\/td><\/tr>\n      <tr><td port=\"0\" align=\"left\" >email: String<\/td><\/tr>\n\t<tr><td port=\"1\" align=\"left\" >role: String<\/td><\/tr>\n\t<tr><td port=\"2\" align=\"left\" >password: String<\/td><\/tr>\n\t<tr><td port=\"3\" align=\"left\" >passwordConfirm: String<\/td><\/tr>\n\t<tr><td port=\"4\" align=\"left\" >name: String<\/td><\/tr>\n\t<tr><td port=\"5\" align=\"left\" >studentId: String<\/td><\/tr>\n\t<tr><td port=\"6\" align=\"left\" >GPA: Number<\/td><\/tr>\n\t<tr><td port=\"7\" align=\"left\" >major: String<\/td><\/tr>\n\t<tr><td port=\"8\" align=\"left\" >level: Number<\/td><\/tr>\n\t<tr><td port=\"9\" align=\"left\" >photo: String<\/td><\/tr>\n\t<tr><td port=\"10\" align=\"left\" >DateJoined: Date<\/td><\/tr>\n\t<tr><td port=\"11\" align=\"left\" >_id: ObjectId<\/td><\/tr>\n\t<tr><td port=\"12\" align=\"left\" >__v: Number<\/td><\/tr>\n\n  <\/table>",
+      "margin": "0",
+      "pos": "50.5,760",
+      "shape": "none",
+      "width": "1.4028"
+    }
+  ],
+  "edges": [
+    {
+      "_gvid": 0,
+      "tail": 0,
+      "head": 6,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[630.080,1166.000],[764.780,1166.000],[720.430,1369.000],[855.130,1369.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [850.080,1356.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [741.360,1362.200],
+          "align": "c",
+          "width": 141.550,
+          "text": "assignments-submissions"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [633.580,1153.400],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "850.08,1360.6",
+      "headlabel": "N",
+      "headport": "0",
+      "label": "assignments-submissions",
+      "lp": "741.36,1366.4",
+      "pos": "630.08,1166 764.78,1166 720.43,1369 855.13,1369",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "633.58,1157.6",
+      "taillabel": "1",
+      "tailport": "7"
+    },
+    {
+      "_gvid": 1,
+      "tail": 1,
+      "head": 0,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[337.000,726.000],[395.410,726.000],[361.430,930.190],[381.600,985.000],[431.750,1121.230],[402.920,1266.000],[548.080,1266.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [543.030,1253.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [444.590,1264.200],
+          "align": "c",
+          "width": 115.070,
+          "text": "courses-assignments"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [340.500,713.400],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "543.03,1257.6",
+      "headlabel": "N",
+      "headport": "2",
+      "label": "courses-assignments",
+      "lp": "444.59,1268.4",
+      "pos": "337,726 395.41,726 361.43,930.19 381.6,985 431.75,1121.2 402.92,1266 548.08,1266",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "340.5,717.6",
+      "taillabel": "1",
+      "tailport": "9"
+    },
+    {
+      "_gvid": 2,
+      "tail": 1,
+      "head": 2,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[337.000,726.000],[339.870,726.000],[552.220,376.000],[555.080,376.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [550.030,363.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [444.590,654.200],
+          "align": "c",
+          "width": 110.410,
+          "text": "courses-discussions"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [340.500,730.200],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "550.03,367.6",
+      "headlabel": "N",
+      "headport": "0",
+      "label": "courses-discussions",
+      "lp": "444.59,658.4",
+      "pos": "337,726 339.87,726 552.22,376 555.08,376",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "340.5,734.4",
+      "taillabel": "1",
+      "tailport": "9"
+    },
+    {
+      "_gvid": 3,
+      "tail": 1,
+      "head": 3,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[337.000,726.000],[375.220,726.000],[511.870,996.000],[550.080,996.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [545.030,983.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [444.590,954.200],
+          "align": "c",
+          "width": 90.170,
+          "text": "courses-lectures"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [333.500,730.200],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "545.03,987.6",
+      "headlabel": "N",
+      "headport": "2",
+      "label": "courses-lectures",
+      "lp": "444.59,958.4",
+      "pos": "337,726 375.22,726 511.87,996 550.08,996",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "333.5,734.4",
+      "taillabel": "1",
+      "tailport": "9"
+    },
+    {
+      "_gvid": 4,
+      "tail": 1,
+      "head": 4,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[337.000,726.000],[429.040,726.000],[452.050,726.000],[544.080,726.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [539.030,713.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [444.590,730.200],
+          "align": "c",
+          "width": 88.620,
+          "text": "courses-quizzes"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [340.500,730.200],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "539.03,717.6",
+      "headlabel": "N",
+      "headport": "2",
+      "label": "courses-quizzes",
+      "lp": "444.59,734.4",
+      "pos": "337,726 429.04,726 452.05,726 544.08,726",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "340.5,734.4",
+      "taillabel": "1",
+      "tailport": "9"
+    },
+    {
+      "_gvid": 5,
+      "tail": 4,
+      "head": 5,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[634.580,506.000],[789.680,506.000],[693.030,230.000],[848.130,230.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [843.080,217.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [741.360,502.200],
+          "align": "c",
+          "width": 139.190,
+          "text": "quizzes-quizsubmissions"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [638.080,493.400],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "843.08,221.6",
+      "headlabel": "N",
+      "headport": "0",
+      "label": "quizzes-quizsubmissions",
+      "lp": "741.36,506.4",
+      "pos": "634.58,506 789.68,506 693.03,230 848.13,230",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "638.08,497.6",
+      "taillabel": "1",
+      "tailport": "13"
+    },
+    {
+      "_gvid": 6,
+      "tail": 7,
+      "head": 1,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[101.000,651.000],[219.060,651.000],[138.940,866.000],[257.000,866.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [251.950,853.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [174.700,851.200],
+          "align": "c",
+          "width": 75.400,
+          "text": "users-courses"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [104.500,638.400],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "251.95,857.6",
+      "headlabel": "N",
+      "headport": "2",
+      "label": "users-courses",
+      "lp": "174.7,855.4",
+      "pos": "101,651 219.06,651 138.94,866 257,866",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "104.5,642.6",
+      "taillabel": "1",
+      "tailport": "11"
+    },
+    {
+      "_gvid": 7,
+      "tail": 7,
+      "head": 2,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[101.000,651.000],[179.420,651.000],[314.510,477.600],[381.600,437.000],[454.400,392.950],[469.990,356.000],[555.080,356.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [550.030,343.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [297.000,559.200],
+          "align": "c",
+          "width": 97.200,
+          "text": "users-discussions"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [104.500,655.200],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "550.03,347.6",
+      "headlabel": "N",
+      "headport": "1",
+      "label": "users-discussions",
+      "lp": "297,563.4",
+      "pos": "101,651 179.42,651 314.51,477.6 381.6,437 454.4,392.95 469.99,356 555.08,356",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "104.5,659.4",
+      "taillabel": "1",
+      "tailport": "11"
+    },
+    {
+      "_gvid": 8,
+      "tail": 7,
+      "head": 5,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[101.000,651.000],[139.580,651.000],[115.860,604.280],[137.000,572.000],[272.830,364.570],[310.630,274.920],[543.580,190.000],[581.580,176.150],[594.180,188.110],[634.580,190.000],[729.800,194.450],[752.800,210.000],[848.130,210.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [843.080,197.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [444.590,272.200],
+          "align": "c",
+          "width": 125.980,
+          "text": "users-quizsubmissions"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [97.500,655.200],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "843.08,201.6",
+      "headlabel": "N",
+      "headport": "1",
+      "label": "users-quizsubmissions",
+      "lp": "444.59,276.4",
+      "pos": "101,651 139.58,651 115.86,604.28 137,572 272.83,364.57 310.63,274.92 543.58,190 581.58,176.15 594.18,188.11 634.58,190 729.8,194.45 752.8,210 848.13,210",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "97.5,659.4",
+      "taillabel": "1",
+      "tailport": "11"
+    },
+    {
+      "_gvid": 9,
+      "tail": 7,
+      "head": 6,
+      "_draw_": 
+      [
+        {
+          "op": "S",
+          "style": "dashed"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "b",
+          "points": [[101.000,651.000],[152.950,651.000],[119.450,833.100],[137.000,882.000],[209.080,1082.790],[223.330,1151.960],[381.600,1295.000],[482.220,1385.930],[535.510,1380.870],[670.580,1393.000],[733.240,1398.630],[754.150,1417.410],[812.130,1393.000],[837.330,1382.390],[827.790,1349.000],[855.130,1349.000]]
+        }
+      ],
+      "_hldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [850.080,1336.400],
+          "align": "c",
+          "width": 10.110,
+          "text": "N"
+        }
+      ],
+      "_ldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [444.590,1375.200],
+          "align": "c",
+          "width": 101.880,
+          "text": "users-submissions"
+        }
+      ],
+      "_tldraw_": 
+      [
+        {
+          "op": "F",
+          "size": 14.000,
+          "face": "Times-Roman"
+        },
+        {
+          "op": "c",
+          "grad": "none",
+          "color": "#000000"
+        },
+        {
+          "op": "T",
+          "pt": [104.500,655.200],
+          "align": "c",
+          "width": 7.000,
+          "text": "1"
+        }
+      ],
+      "arrowhead": "none",
+      "head_lp": "850.08,1340.6",
+      "headlabel": "N",
+      "headport": "1",
+      "label": "users-submissions",
+      "lp": "444.59,1379.4",
+      "pos": "101,651 152.95,651 119.45,833.1 137,882 209.08,1082.8 223.33,1152 381.6,1295 482.22,1385.9 535.51,1380.9 670.58,1393 733.24,1398.6 754.15,1417.4 812.13,1393 837.33,1382.4 827.79,1349 855.13,1349",
+      "shape": "none",
+      "style": "dashed",
+      "tail_lp": "104.5,659.4",
+      "taillabel": "1",
+      "tailport": "11"
+    }
+  ]
+}
