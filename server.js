@@ -1,4 +1,3 @@
-const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 
 dotenv.config({ path: './config.env' });
@@ -10,14 +9,20 @@ process.on('uncaughtException', (err) => {
   process.exit(1);
 
 })
+const mongoose = require('mongoose');
 const app = require('./app');
+const connectDB = require('./db');
 
 //  database connection
-const DB = process.env.DATABASE.replace("<PASSWORD>", process.env.DB_PASSWORD).replace("<USER_NAME>", process.env.DB_USERNAME);
-mongoose.connect(DB).then(() => {
-  console.log("DB Connected");
-}).catch((err) => console.log(err.message));
+connectDB()
+  .then(() => {
+    console.log("Database connection successfully.");
 
+  })
+  .catch(err => {
+    console.log(`DB Connection Error: ${err.message}`);
+    process.exit(1); // Exit if DB connection fails
+  });
 // server listening
 const port = process.env.PORT || 3000;
 const server = app.listen(port, () => {
