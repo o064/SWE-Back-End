@@ -54,7 +54,7 @@ exports.createUser = catchAsync(async (req, res) => {
 
 });
 exports.updateUser = catchAsync(async (req, res, next) => {
-  const user = await User.findByIdAndUpdate(req.params.id);
+  const user = await User.findById(req.params.id, req.body);
   if (!user) {
     return next(new AppError("User with this id is not found", 404));
   }

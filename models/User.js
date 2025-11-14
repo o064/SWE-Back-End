@@ -13,7 +13,8 @@ const userSchema = new mongoose.Schema({
     },
     role: {
         type: String,
-        enum: ["student", "instructor", "admin"]
+        enum: ["student", "instructor", "admin"],
+        default: "student"
     },
     password: {
         type: String,
@@ -48,7 +49,7 @@ const userSchema = new mongoose.Schema({
         match: [/^[A-Za-z0-9_-]+$/, "studentId may only contain letters, numbers, underscores, or hyphens"],
         required: [
             function () {
-                return this.role === "user";
+                return this.role === "student";
             },
             "studentId is required for students"
         ]
@@ -59,7 +60,7 @@ const userSchema = new mongoose.Schema({
         min: 0.0,
         required: [
             function () {
-                return this.role === "user";
+                return this.role === "student";
             },
             "GPA is required for students"
         ]
@@ -71,7 +72,7 @@ const userSchema = new mongoose.Schema({
         maxlength: [50, "major should be less than or equal 50 characters"],
         required: [
             function () {
-                return this.role === "user";
+                return this.role === "student";
             },
             "major is required for students"
         ]
@@ -83,7 +84,7 @@ const userSchema = new mongoose.Schema({
         max: 7,
         required: [
             function () {
-                return this.role === "user";
+                return this.role === "student";
             },
             "level is required for students"
         ]

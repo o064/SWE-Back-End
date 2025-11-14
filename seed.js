@@ -16,7 +16,9 @@ const QuizSubmission = require('./models/QuizSubmission');
 const Discussion = require('./models/Discussion');
 
 // Connect to MongoDB
-mongoose.connect(process.env.DATABASE_LOCAL, {
+const DB = process.env.DATABASE.replace("<PASSWORD>", process.env.DB_PASSWORD).replace("<USER_NAME>", process.env.DB_USERNAME);
+
+mongoose.connect(DB, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })

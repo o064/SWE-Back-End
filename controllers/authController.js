@@ -1,4 +1,3 @@
-const crypto = require('crypto');
 const jwt = require('jsonwebtoken');
 const User = require('../models/User');
 const catchAsync = require('../utils/catchAsync');
@@ -22,6 +21,7 @@ const createSendToken = (user, statusCode, res) => {
     res.cookie("jwt", token, cookieOptions)
     //delete password from user in res 
     user.password = undefined;
+
     res.status(statusCode).json({
         status: 'success',
         token,
@@ -33,12 +33,23 @@ const createSendToken = (user, statusCode, res) => {
 
 
 exports.signup = catchAsync(async (req, res, next) => {
+    // Only pick allowed fields from body
     const userData = {
         email: req.body.email,
-        password: req.body.password,
-        passwordConfirm: req.body.passwordConfirm,
         name: req.body.name,
+        role: req.body.role,
+        password: req.body.password,
+        passwordConfirm: req.body.passwordConfirm
     };
+
+    // If student → add student fields
+    if (req.body.role === "student") {
+        userData.studentId = req.body.studentId;
+        userData.GPA = req.body.GPA;
+        userData.major = req.body.major;
+        userData.level = req.body.level;
+    }
+
     const newUser = await User.create(userData);
     createSendToken(newUser, 201, res);
 });
@@ -52,7 +63,7 @@ exports.login = catchAsync(async (req, res, next) => {
     if (!email || !password)//bad request
         return next(new AppError("Please provide email and password!", 400));
     // check if user is exist 
-    const user = await User.findOne({ email }).select(['email', 'password']);
+    const user = await User.findOne({ email }).select(['email', 'password', "name"]);
     if (!user || !(await user.correctPassword(password, user.password))) // unauthorized
         return next(new AppError("password or email is not correct", 401));
     // generate token
@@ -82,7 +93,6 @@ exports.protect = catchAsync(async (req, res, next) => {
 })
 exports.restrictTo = (...roles) => {
     return (req, res, next) => {
-        // roles ['admin', 'lead-guide']. role='user'
         if (!roles.includes(req.user.role)) {
             return next(
                 new AppError('You do not have permission to perform this action', 403)
