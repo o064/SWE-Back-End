@@ -6,20 +6,25 @@ const router = express.Router();
 
 router.post("/signup", authController.signup);
 router.post("/login", authController.login);
+router.post("/forgetPassword", authController.forgetPassword);
+router.patch("/resetPassword/:token", authController.resetPassword);
+router.patch("/updateMyPassword", authController.protect, authController.updatePassword);
 
-
-router.get("/me", authController.protect);
-router.get("/myCourses", authController.protect);
 
 router
+  .route('/me')
+  .get(authController.protect, authController.getMe)
+  .delete(authController.protect, userController.deleteMe)
+  .patch(authController.protect, userController.updateMe);
+router
   .route('/')
-  .get(userController.getAllUsers)
-  .post(userController.createUser);
+  .get(authController.protect, authController.restrictTo('admin'), userController.getAllUsers)
+  .post(authController.protect, authController.restrictTo('admin'), userController.createUser);
 
 router
   .route('/:id')
-  .get(userController.getUser)
-  .patch(userController.updateUser)
-  .delete(userController.deleteUser);
+  .get(authController.protect, authController.restrictTo('admin'), userController.getUser)
+  .patch(authController.protect, authController.restrictTo('admin'), userController.updateUser)
+  .delete(authController.protect, authController.restrictTo('admin'), userController.deleteUser);
 
 module.exports = router;
