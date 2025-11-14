@@ -49,14 +49,14 @@ exports.getMyCourses = catchAsync(async (req, res, next) => {
         // Courses created by the instructor
         courses = await Course.find({ instructor: userId })
             .populate('students', 'name email')
-            .populate('lectures')
-            .populate('assignments');
+        // .populate('lectures')
+        // .populate('assignments');
     } else if (req.user.role === 'student') {
         // Courses the student is enrolled in
         courses = await Course.find({ students: userId })
             .populate('instructor', 'name email')
-            .populate('lectures')
-            .populate('assignments');
+        // .populate('lectures')
+        // .populate('assignments');
     } else {
         return next(new AppError('Role not allowed to view courses', 403));
     }

@@ -13,7 +13,7 @@ router.patch("/updateMyPassword", authController.protect, authController.updateP
 
 router
   .route('/me')
-  .get(authController.protect, authController.getMe)
+  .get(authController.protect, userController.getMe, userController.getUser)
   .delete(authController.protect, userController.deleteMe)
   .patch(authController.protect, userController.updateMe);
 router
